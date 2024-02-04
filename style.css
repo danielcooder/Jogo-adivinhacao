@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+body,
+button,
+input {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1e6112;
+    box-shadow: 1px;
+    color: rgb(203, 254, 249);
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+button:hover {
+
+    background-color: #16c71c;
+}
+
+main {
+    background: #c5ffce;
+    box-shadow: 1rem 1rem 2rem rgb(79, 159, 100);
+    border-radius: .6rem;
+    padding: 4.8rem 16.5rem 6.4rem;
+    width: min (42.8rem, 90%);
+    margin-top: -45rem;
+    text-align: center;
+    z-index: 2;
+
+}
+
+.img-steve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: -100rem;
+}
+
+.img-steve img {
+    width: 450px;
+    height: 280px;
+}
+
+.herobraine {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: -95rem;
+    margin-right: 130rem;
+}
+
+.herobraine img {
+    width: 30px;
+    height: 50px;
+
+}
+
+.horse {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: -35rem;
+    margin-left: 100rem;
+}
+
+.horse img {
+    width: 120px;
+    height: 100px;
+}
+
+.bottom-img {
+    background-image: url('./img/mini2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    z-index: -3;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+h1,
+p {
+    color: #34355b;
+}
+
+p {
+    opacity: .8;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input,
+button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: #bfddff;
+    width: 10rem;
+    border-radius: .4rem 0 0 .4rem;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: .4rem;
+}
+
+
+.high-score::before {
+    content: "\1F3C6";
+    margin-right: 5px;
+}
+
+.high-score {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2rem 1rem 5rem rgb(86, 255, 92);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 3;
+}
+
+.hide {
+    display: none;
+}
